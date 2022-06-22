@@ -20,7 +20,7 @@ public class CardDeliveryTest {
     @Test
     void shouldLoginAccount() {
         Configuration.holdBrowserOpen = true;
-        Configuration.headless = false;
+        Configuration.headless = true;
 
 
         open("http://localhost:9999/");
